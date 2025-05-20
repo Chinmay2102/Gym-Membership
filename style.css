@@ -336,6 +336,7 @@ header{
     text-align: center;
     margin: 2px;
     margin-right:25px;
+    border-radius: 30px;   
 }
 
 .card_img{
@@ -540,6 +541,58 @@ header{
 }
 
 /* Responsive Design */
+@media (max-width: 480px) {
+    /* Header adjustments */
+    
+    .left {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .logo {
+        width: 30%;
+    }
+
+    /* Banner text */
+    .bannerheading {
+        font-size: 1.5rem;
+        letter-spacing: 1px;
+    }
+
+    .bannerpara {
+        font-size: 0.9rem;
+    }
+
+    /* Pricing cards */
+    .basic_advance_card, .popular_plan {
+        width: 95%;
+    }
+
+    /* Testimonials */
+    .tcpara {
+        font-size: 1rem;
+    }
+
+    .tcname {
+        font-size: 1.2rem;
+    }
+
+    /* Chat container */
+    #bot_message_container {
+        left: 5%;
+        width: 90%;
+    }
+
+    /* Footer text */
+    .footer_heading {
+        font-size: 1rem;
+    }
+
+    .footer_links li {
+        font-size: 0.9rem;
+    }
+}
+
 /* Medium devices  */
 @media (max-width: 768px) {
     /* Header adjustments */
@@ -640,56 +693,3 @@ header{
         width: 50px;
     }
 }
-
-/* Small devices (phones, 480px and down) */
-@media (max-width: 480px) {
-    /* Header adjustments */
-    .left {
-        flex-direction: column;
-        gap: 15px;
-    }
-
-    .logo {
-        width: 30%;
-    }
-
-    /* Banner text */
-    .bannerheading {
-        font-size: 1.5rem;
-        letter-spacing: 1px;
-    }
-
-    .bannerpara {
-        font-size: 0.9rem;
-    }
-
-    /* Pricing cards */
-    .basic_advance_card, .popular_plan {
-        width: 95%;
-    }
-
-    /* Testimonials */
-    .tcpara {
-        font-size: 1rem;
-    }
-
-    .tcname {
-        font-size: 1.2rem;
-    }
-
-    /* Chat container */
-    #bot_message_container {
-        left: 5%;
-        width: 90%;
-    }
-
-    /* Footer text */
-    .footer_heading {
-        font-size: 1rem;
-    }
-
-    .footer_links li {
-        font-size: 0.9rem;
-    }
-}
-
