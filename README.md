@@ -36,7 +36,7 @@ A responsive gym membership landing page with interactive features, pricing plan
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/your-username/Gym-Membership.git
+git clone https://github.com/Chinmay2102/Gym-Membership.git
 ```
 2. Open in browser: index.html
 3. Explore features:
